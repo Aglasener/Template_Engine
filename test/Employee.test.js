@@ -30,7 +30,7 @@ describe("getEmail", () => {
 
 describe("getRole", () => {
     it("should get the email entered and return it", () => {
-      const employee = new Employee("Andres", 123456789, "Manager", "andresglasener@gmail.com");
+      const employee = new Employee("Andres", 123456789, "Employee", "andresglasener@gmail.com");
       let expRole = "Employee";
 
       expect(employee.getRole()).toEqual(expRole);
